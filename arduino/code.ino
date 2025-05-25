@@ -3,8 +3,8 @@
 #define sgn(x) ((x) < 0 ? -1 : ((x) > 0 ? 1 : 1))
 
 // Wi-Fi credentials
-const char* ssid = "ps";
-const char* password = "password123";
+const char* ssid = "";
+const char* password = "";
 
 // Motor control pins
 const int ENA = 12;  // D6 (GPIO12) - Left Speed
